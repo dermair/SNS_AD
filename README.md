@@ -1,4 +1,4 @@
-# 피부관리실 홍보 에이전트
+# SNS 홍보 에이전트
 
 블로그, 인스타그램, 유튜브 콘텐츠를 자동으로 생성하고 업로드하는 AI 에이전트입니다.
 
@@ -109,13 +109,13 @@ python -m src.main setup
 
 ```bash
 # 블로그 + 인스타 + 유튜브 동시 생성
-python -m src.main generate "여드름 관리 후기"
+python -m src.main generate "관리 후기"
 
 # 블로그만 생성
-python -m src.main generate "여드름 관리 후기" -p blog
+python -m src.main generate "관리 후기" -p blog
 
 # 추가 지침 파일 적용
-python -m src.main generate "여드름 관리 후기" -g my_style.txt
+python -m src.main generate "관리 후기" -g my_style.txt
 ```
 
 ### 고객 정보로 블로그 글 생성
@@ -124,17 +124,17 @@ python -m src.main generate "여드름 관리 후기" -g my_style.txt
 2. `input/blog/` 폴더에 사진 넣기 (before_1.jpg, after_1.jpg 등)
 3. 실행:
 ```bash
-python -m src.main generate "여드름 관리 후기" -p blog
+python -m src.main generate "관리 후기" -p blog
 ```
 
 ### 영상 자동 편집
 
 ```bash
 # 사진으로 슬라이드쇼 영상 (자막 포함)
-python -m src.main shorts -i ./input/ -t "여드름 케어 전후"
+python -m src.main shorts -i ./input/ -t "케어 전후"
 
 # AI 나레이션 모드
-python -m src.main shorts -i ./input/ -t "여드름 케어 전후" -m narration
+python -m src.main shorts -i ./input/ -t "케어 전후" -m narration
 
 # BGM 추가
 python -m src.main shorts -i ./input/ --bgm music.mp3
