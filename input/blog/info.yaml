@@ -1,0 +1,54 @@
+# 블로그 글 작성 정보 — 사진과 고객 정보를 입력하세요
+# 이 파일을 채우면 블로그 글에 자동 반영됩니다
+
+topic: "여드름 관리 후기"
+post_type: "후기형"  # 후기형 / 정보형 / 홍보형
+
+# 고객 케이스 (2명까지 입력 가능)
+customers:
+  - name: "A고객님"
+    age: "20대 후반"
+    gender: "여성"
+    job: "직장인"
+    concern: "볼과 턱 라인에 반복적으로 올라오는 여드름"
+    how_found: "인스타그램 후기 보고 방문"
+    request: "자극 없이 부드럽게 관리해주세요"
+    care_count: "3회"
+    result: "붉음증 가라앉고 새 여드름 줄어듦, 피부결 정돈"
+    review_quote: "피부가 전체적으로 차분해진 느낌이에요"
+    photos:
+      before: "before_1.jpg"
+      after: "after_1.jpg"
+      other_angle: "side_1.jpg"
+    review_photo: "review_1.jpg"
+
+  - name: "B고객님"
+    age: "30대 초반"
+    gender: "여성"
+    job: "프리랜서"
+    concern: "이마와 코 주변 반복 여드름 + 흉터"
+    how_found: "네이버 검색으로 찾아오심"
+    request: "흉터도 같이 케어해주세요"
+    care_count: "4회"
+    result: "새 여드름 빈도 줄고 기존 자국도 옅어짐"
+    review_quote: "이마 가리려고 앞머리 내리고 다녔는데 이제 올려도 될 것 같아요"
+    photos:
+      before: "before_2.jpg"
+      after: "after_2.jpg"
+      other_angle: "side_2.jpg"
+    review_photo: "review_2.jpg"
+
+# 강조하고 싶은 내용 (선택)
+highlights:
+  - "안전한 저자극 성분 사용"
+  - "1:1 맞춤 피부 분석 후 케어"
+  - "위생 철저 (1인 1회 소모품 교체)"
+
+# 자주 묻는 질문 (선택)
+faq:
+  - question: "몇 회 정도 받아야 하나요?"
+    answer: "개인마다 다르지만 보통 3~5회 정도면 변화를 느끼세요"
+  - question: "예민한 피부도 가능한가요?"
+    answer: "네, 예민성 피부에 맞는 저자극 케어 방식으로 진행해요"
+  - question: "케어 후 바로 화장해도 되나요?"
+    answer: "당일은 피해주시고, 다음 날부터 가능하세요"

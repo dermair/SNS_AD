@@ -1,0 +1,76 @@
+# 피부관리실 프로필 설정 (예시)
+# 이 파일을 shop_profile.yaml 로 복사한 후 본인 매장 정보로 수정하세요
+# copy shop_profile.example.yaml shop_profile.yaml
+
+shop:
+  name: "OO 피부관리실"
+  description: "매장 한 줄 소개를 입력하세요"
+  location: "매장 주소를 입력하세요"
+  phone: "010-0000-0000"
+  instagram: "@instagram_id"
+  blog: "https://blog.naver.com/blog_id"
+  youtube: "@youtube_channel"
+
+  hours:
+    weekday: "10:00 - 21:00"
+    weekend: "10:00 - 18:00"
+    closed: "매주 월요일"
+
+  services:
+    - name: "수분관리"
+      price_range: "7만원 ~ 12만원"
+      duration: "1시간"
+      keywords: ["수분관리", "수분케어", "건조피부"]
+
+    - name: "여드름관리"
+      price_range: "8만원 ~ 15만원"
+      duration: "1시간 ~ 1시간 30분"
+      keywords: ["여드름관리", "트러블케어"]
+
+    # 시술 메뉴를 추가하세요
+    # - name: "시술명"
+    #   price_range: "가격대"
+    #   duration: "소요시간"
+    #   keywords: ["키워드1", "키워드2"]
+
+  tone:
+    style: "전문적이면서도 따뜻한"
+    target_audience: "20-50대 남녀, 피부 고민을 가진 모든 분"
+    key_values:
+      - "1:1 맞춤 피부 분석"
+      - "결과로 증명하는 관리"
+      - "위생 최우선"
+    avoid:
+      - "과장된 효과 표현"
+      - "의료 행위 암시 (진단, 치료 등)"
+      - "비교 광고"
+
+  promotions:
+    - title: "신규 고객 할인"
+      services: ["수분관리", "여드름관리"]
+      period: "상시"
+      description: "첫 방문 고객 30% 할인"
+
+  blog_guidelines:
+    writing_style: "구어체+경어체 혼용, 대화하듯 자연스러운 톤"
+    must_include:
+      - "고객 공감형 첫 문장"
+      - "케어 전후 사진 위치 표기"
+      - "고객 후기"
+      - "자주 묻는 질문 QnA"
+      - "연락처 링크"
+    must_avoid:
+      - "자기소개로 시작"
+      - "의료 용어 (진단, 치료, 시술 등)"
+      - "협찬 문구"
+    post_structure:
+      - "고객 공감 후킹"
+      - "고객 케이스 1: 고민 → 케어 → 후기"
+      - "고객 케이스 2"
+      - "QnA"
+      - "경력/차별점"
+      - "연락처"
+    target_length: "1500-2000자"
+    seo_rules:
+      - "제목 25자 이내, 핵심 키워드 앞배치"
+      - "키워드 본문 내 5~6회 반복"

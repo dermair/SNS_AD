@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "beauty-shop-agent"
+version = "0.1.0"
+description = "소규모 뷰티샵 홍보 콘텐츠 자동 생성 에이전트"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.42.0",
+    "openai>=1.60.0",
+    "google-genai>=1.0.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "python-dotenv>=1.0",
+    "httpx>=0.27.0",
+    "PyJWT>=2.8.0",
+]
+
+[project.scripts]
+beauty-agent = "src.main:main"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
